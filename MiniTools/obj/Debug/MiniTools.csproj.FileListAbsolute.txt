@@ -13,3 +13,7 @@ C:\Users\555\source\repos\MiniTools\MiniTools\obj\Debug\MiniTools.csproj.CoreCom
 C:\Users\555\source\repos\MiniTools\MiniTools\obj\Debug\MiniTools.UnusualFolder.resources
 C:\Users\555\source\repos\MiniTools\MiniTools\obj\Debug\MiniTools.PasswordNeed.resources
 C:\Users\555\source\repos\MiniTools\MiniTools\obj\Debug\MiniTools.PasswordNeedCreator.resources
+C:\Users\555\source\repos\MiniTools\MiniTools\obj\Debug\MiniTools.HttpRequestSender.resources
+C:\Users\555\source\repos\MiniTools\MiniTools\bin\Debug\Newtonsoft.Json.dll
+C:\Users\555\source\repos\MiniTools\MiniTools\bin\Debug\Newtonsoft.Json.xml
+C:\Users\555\source\repos\MiniTools\MiniTools\obj\Debug\MiniTools.csproj.CopyComplete

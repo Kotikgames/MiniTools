@@ -36,6 +36,7 @@
             this.passNeedBtn = new System.Windows.Forms.ToolStripButton();
             this.about = new System.Windows.Forms.ToolStripButton();
             this.Tabs = new System.Windows.Forms.TabControl();
+            this.httpRequestSenderBtn = new System.Windows.Forms.ToolStripButton();
             this.selectTool.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -46,11 +47,12 @@
             this.msgBoxCreatorBtn,
             this.unusualFolderBtn,
             this.passNeedBtn,
+            this.httpRequestSenderBtn,
             this.about});
             this.selectTool.Location = new System.Drawing.Point(0, 0);
             this.selectTool.Name = "selectTool";
             this.selectTool.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-            this.selectTool.Size = new System.Drawing.Size(747, 25);
+            this.selectTool.Size = new System.Drawing.Size(823, 25);
             this.selectTool.TabIndex = 0;
             this.selectTool.Text = "toolStrip1";
             // 
@@ -111,14 +113,25 @@
             this.Tabs.Location = new System.Drawing.Point(0, 25);
             this.Tabs.Name = "Tabs";
             this.Tabs.SelectedIndex = 0;
-            this.Tabs.Size = new System.Drawing.Size(747, 516);
+            this.Tabs.Size = new System.Drawing.Size(823, 516);
             this.Tabs.TabIndex = 1;
+            // 
+            // httpRequestSenderBtn
+            // 
+            this.httpRequestSenderBtn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.httpRequestSenderBtn.Image = ((System.Drawing.Image)(resources.GetObject("httpRequestSenderBtn.Image")));
+            this.httpRequestSenderBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.httpRequestSenderBtn.Name = "httpRequestSenderBtn";
+            this.httpRequestSenderBtn.Size = new System.Drawing.Size(141, 22);
+            this.httpRequestSenderBtn.Text = "Отправить HTTP запрос";
+            this.httpRequestSenderBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.Overlay;
+            this.httpRequestSenderBtn.Click += new System.EventHandler(this.httpRequestSenderBtn_Click);
             // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(747, 541);
+            this.ClientSize = new System.Drawing.Size(823, 541);
             this.Controls.Add(this.Tabs);
             this.Controls.Add(this.selectTool);
             this.Name = "Main";
@@ -139,6 +152,7 @@
         private System.Windows.Forms.ToolStripButton passNeedBtn;
         private System.Windows.Forms.ToolStripButton about;
         private System.Windows.Forms.ToolStripButton unusualFolderBtn;
+        private System.Windows.Forms.ToolStripButton httpRequestSenderBtn;
     }
 }
 

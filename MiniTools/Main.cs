@@ -86,5 +86,18 @@ namespace MiniTools
             form.Show();
             Tabs.TabPages.Add(tp);
         }
+
+        private void httpRequestSenderBtn_Click(object sender, EventArgs e)
+        {
+            TabPage tp = new TabPage("Отправить HTTP запрос");
+            HttpRequestSender form = new HttpRequestSender
+            {
+                TopLevel = false
+            };
+            tp.ControlRemoved += Tp_ControlRemoved;
+            tp.Controls.Add(form);
+            form.Show();
+            Tabs.TabPages.Add(tp);
+        }
     }
 }
