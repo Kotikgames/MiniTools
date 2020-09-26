@@ -49,8 +49,14 @@
             this.pswdEnabled = new System.Windows.Forms.CheckBox();
             this.captionText = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.hideExplorerBottom = new System.Windows.Forms.CheckBox();
+            this.hideExplorer = new System.Windows.Forms.CheckBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.icon)).BeginInit();
             this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -120,7 +126,7 @@
             this.groupBox1.Controls.Add(this.loginBtnText);
             this.groupBox1.Location = new System.Drawing.Point(165, 84);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(265, 103);
+            this.groupBox1.Size = new System.Drawing.Size(265, 72);
             this.groupBox1.TabIndex = 7;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Кнопки";
@@ -231,7 +237,7 @@
             // sc
             // 
             this.sc.Enabled = false;
-            this.sc.Location = new System.Drawing.Point(334, 193);
+            this.sc.Location = new System.Drawing.Point(12, 193);
             this.sc.Name = "sc";
             this.sc.Size = new System.Drawing.Size(96, 23);
             this.sc.TabIndex = 10;
@@ -269,11 +275,63 @@
             this.label6.TabIndex = 11;
             this.label6.Text = "Заголовок:";
             // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.hideExplorerBottom);
+            this.groupBox2.Controls.Add(this.hideExplorer);
+            this.groupBox2.Controls.Add(this.label7);
+            this.groupBox2.Controls.Add(this.label8);
+            this.groupBox2.Location = new System.Drawing.Point(165, 158);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(265, 58);
+            this.groupBox2.TabIndex = 8;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Функции";
+            // 
+            // hideExplorerBottom
+            // 
+            this.hideExplorerBottom.AutoSize = true;
+            this.hideExplorerBottom.Location = new System.Drawing.Point(195, 35);
+            this.hideExplorerBottom.Name = "hideExplorerBottom";
+            this.hideExplorerBottom.Size = new System.Drawing.Size(15, 14);
+            this.hideExplorerBottom.TabIndex = 7;
+            this.hideExplorerBottom.UseVisualStyleBackColor = true;
+            this.hideExplorerBottom.CheckedChanged += new System.EventHandler(this.TextBoxChanged);
+            // 
+            // hideExplorer
+            // 
+            this.hideExplorer.AutoSize = true;
+            this.hideExplorer.Location = new System.Drawing.Point(113, 17);
+            this.hideExplorer.Name = "hideExplorer";
+            this.hideExplorer.Size = new System.Drawing.Size(15, 14);
+            this.hideExplorer.TabIndex = 5;
+            this.hideExplorer.UseVisualStyleBackColor = true;
+            this.hideExplorer.CheckedChanged += new System.EventHandler(this.TextBoxChanged);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(6, 16);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(102, 13);
+            this.label7.TabIndex = 4;
+            this.label7.Text = "Скрыть проводник";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(7, 35);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(182, 13);
+            this.label8.TabIndex = 6;
+            this.label8.Text = "Скрыть нижнию часть проводника";
+            // 
             // PasswordNeedCreator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(442, 430);
+            this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.captionText);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.pswdEnabled);
@@ -291,6 +349,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.icon)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -319,5 +379,10 @@
         private System.Windows.Forms.CheckBox pswdEnabled;
         private System.Windows.Forms.TextBox captionText;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.CheckBox hideExplorerBottom;
+        private System.Windows.Forms.CheckBox hideExplorer;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
     }
 }

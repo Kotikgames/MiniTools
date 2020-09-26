@@ -15,6 +15,7 @@ namespace MiniTools
     {
         [DllImport("shell32.dll")]
         public static extern int ShellAbout(IntPtr hWnd, string szApp, string szOtherStuff, IntPtr hIcon);
+
         public Main()
         {
             InitializeComponent();

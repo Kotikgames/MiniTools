@@ -75,6 +75,9 @@ namespace MiniTools
             p.ControlBox = controlBoxEnabled.Checked;
             p.pass.Enabled = pswdEnabled.Checked;
             p.closeEnabled = closeEnabled.Checked;
+
+            p.TopMost = true;
+            p.HideExplorer(hideExplorer.Checked, hideExplorerBottom.Checked);
             p.ShowDialog();
         }
 
