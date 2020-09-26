@@ -1,0 +1,15 @@
+C:\Users\555\source\repos\MiniTools\MiniTools\bin\Debug\MiniTools.exe.config
+C:\Users\555\source\repos\MiniTools\MiniTools\bin\Debug\MiniTools.exe
+C:\Users\555\source\repos\MiniTools\MiniTools\bin\Debug\MiniTools.pdb
+C:\Users\555\source\repos\MiniTools\MiniTools\obj\Debug\MiniTools.csprojAssemblyReference.cache
+C:\Users\555\source\repos\MiniTools\MiniTools\obj\Debug\MiniTools.FileTextFind.resources
+C:\Users\555\source\repos\MiniTools\MiniTools\obj\Debug\MiniTools.Main.resources
+C:\Users\555\source\repos\MiniTools\MiniTools\obj\Debug\MiniTools.Properties.Resources.resources
+C:\Users\555\source\repos\MiniTools\MiniTools\obj\Debug\MiniTools.csproj.GenerateResource.cache
+C:\Users\555\source\repos\MiniTools\MiniTools\obj\Debug\MiniTools.exe
+C:\Users\555\source\repos\MiniTools\MiniTools\obj\Debug\MiniTools.pdb
+C:\Users\555\source\repos\MiniTools\MiniTools\obj\Debug\MiniTools.MessageBoxCreator.resources
+C:\Users\555\source\repos\MiniTools\MiniTools\obj\Debug\MiniTools.csproj.CoreCompileInputs.cache
+C:\Users\555\source\repos\MiniTools\MiniTools\obj\Debug\MiniTools.UnusualFolder.resources
+C:\Users\555\source\repos\MiniTools\MiniTools\obj\Debug\MiniTools.PasswordNeed.resources
+C:\Users\555\source\repos\MiniTools\MiniTools\obj\Debug\MiniTools.PasswordNeedCreator.resources
